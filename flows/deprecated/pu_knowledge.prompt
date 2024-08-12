@@ -1,0 +1,22 @@
+---
+model: vertexai/gemini-1.0-pro
+config:
+  temperature: 0.9
+input:
+  format: json
+  schema: 
+    PUImproveKnowledgeInput
+output:
+  format: json
+  schema: 
+    PromptKnowledgeSchema
+---
+
+Get the following properties for the prompt: {{stringify promptData}} & survey done based on the prompt: {{stringify surveyData}}
+
+You are provided with a single questions. Your task is to update the {{promptData.promptKnowledge}} schema based on its answer.
+
+user_level: on a scale of 1-10, how deep is the knowledge of user.
+
+all the output fields are must.
+if rest of the fields in output schema are not known, fill it on the basis of the field type nut not null.

@@ -1,0 +1,19 @@
+---
+model: vertexai/gemini-1.0-pro
+config:
+  temperature: 0.9
+input:
+  format: json
+  schema: 
+    PromptBreakdownInputSchema
+  default:
+    input_prompt: wonder woman
+output:
+  format: json
+  schema: 
+    PromptBreakdownOutputSchema
+---
+
+you are an expert in {{subject}}
+
+Get the following properties to identify the prompt: {{input_prompt}}

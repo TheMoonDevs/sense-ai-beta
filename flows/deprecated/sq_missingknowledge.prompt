@@ -1,0 +1,25 @@
+---
+model: vertexai/gemini-1.0-pro
+config:
+  temperature: 0.9
+input:
+  format: json
+  schema: 
+    SQMissingFieldInput
+output:
+  format: json
+  schema: 
+    SQMissingFieldOutput
+---
+
+
+output: the best question of type: {{questionType}} for the fields: {{missingFields}}
+
+conditions to add uiStyles to response based on {{questionType}}:
+yesNo: only when type is boolean
+textChoices: when type is single select or multi select
+cardChoices: when type is single select or multi select
+rating: only when type is scale
+
+don't include both choices and options in same response
+max options/choices: 6

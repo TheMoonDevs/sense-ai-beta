@@ -1,0 +1,35 @@
+---
+model: googleai/gemini-1.5-flash-latest
+config:
+  temperature: 0.9
+  topP: 0.95
+  topK: 32
+  safetySettings:
+    - category: HARM_CATEGORY_HARASSMENT
+      threshold: BLOCK_ONLY_HIGH
+
+input:
+  format: json
+  schema: 
+    PromptImageInputSchema
+ 
+output:
+  format: json
+  schema: 
+    PromptImageOutputSchema
+---
+
+Read this image in detail.
+
+{{media url=image}}
+
+image_description: Generate a detailed description of the image. Describe the image in such a way that any question related to the image can be answered.
+
+suggestive_prompt: Generate 1 most relevant suggestive question prompt which could be asked by the user for this image.
+Be sensible, and try to understand the context of the image to generate the prompt. 
+An example of a prompt could be:
+"What is the name of the person in the image?" or 
+"What is the object in the image?" or
+"What is the location in the image?" or
+"What animal or bird is in the image?" or
+

@@ -1,0 +1,31 @@
+---
+model: googleai/gemini-pro
+config:
+  temperature: 0.9
+  topP: 0.95
+  topK: 32
+  safetySettings:
+    - category: HARM_CATEGORY_HARASSMENT
+      threshold: BLOCK_ONLY_HIGH
+input:
+  format: json
+  schema: 
+    PromptDepthInputSchema
+  default:
+    input_prompt: Train my mind
+output:
+  format: json
+  schema: 
+    PromptDepthOutputSchema
+---
+
+
+Get the following properties for the prompt: {{input_prompt}} & information {{stringify classification}}
+
+learningDepth: on a scale of 1-10, how deep is the subject.
+skillLevel: If applicable, the skill level required to understand the prompt (Basic, Intermediate, Advanced) in that {{classification.field}}
+outcomeOfAction: What the prompt aims to achieve at the end
+actionKind: The way the prompt is usually taught or learned.
+
+all the output fields are must.
+if rest of the fields in output schema are not known, fill it on the basis of the field type nut not null.

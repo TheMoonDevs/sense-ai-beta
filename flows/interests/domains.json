@@ -1,0 +1,268 @@
+[
+  {
+    "title": "Science",
+    "type": "academic",
+    "description": "The systematic study of the structure and behavior of the physical and natural world through observation and experimentation.",
+    "id": "science",
+    "icon": "🧪"
+  },
+  {
+    "title": "Mathematics",
+    "type": "academic",
+    "description": "The abstract study of numbers, quantity, structure, space, and change.",
+    "id": "mathematics",
+    "icon": "🧮"
+  },
+  {
+    "title": "History",
+    "type": "academic",
+    "description": "The study of past events, particularly in human affairs.",
+    "id": "history",
+    "icon": "🏛️"
+  },
+  {
+    "title": "Arts",
+    "type": "academic",
+    "description": "The creative production of aesthetic objects, environments, and experiences.",
+    "id": "arts",
+    "icon": "🎨"
+  },
+  {
+    "title": "Technology",
+    "type": "industry",
+    "description": "The application of scientific knowledge for practical purposes, especially in industry.",
+    "id": "technology",
+    "icon": "💻"
+  },
+  {
+    "title": "Business",
+    "type": "industry",
+    "description": "The activities involved in producing, buying, and selling goods or services.",
+    "id": "business",
+    "icon": "💼"
+  },
+  {
+    "title": "Health",
+    "type": "common",
+    "description": "The state of physical and mental well-being.",
+    "id": "health",
+    "icon": "⚕️"
+  },
+  {
+    "title": "Environment",
+    "type": "common",
+    "description": "The natural world, including air, water, land, plants, and animals.",
+    "id": "environment",
+    "icon": "🌍"
+  },
+  {
+    "title": "Philosophy",
+    "type": "other",
+    "description": "The study of the fundamental nature of reality, knowledge, existence, value, and reason.",
+    "id": "philosophy",
+    "icon": "🤔"
+  },
+  {
+    "title": "Sports",
+    "type": "common",
+    "description": "Physical activities involving competitive athletic contests.",
+    "id": "sports",
+    "icon": "⚽"
+  },
+  {
+    "title": "Entertainment",
+    "type": "common",
+    "description": "Activities that hold the attention and interest of an audience.",
+    "id": "entertainment",
+    "icon": "🍿"
+  },
+  {
+    "title": "Politics",
+    "type": "common",
+    "description": "The activities associated with governing a country or area.",
+    "id": "politics",
+    "icon": "🏛️"
+  },
+  {
+    "title": "Religion",
+    "type": "other",
+    "description": "Belief in and worship of a superhuman controlling power or powers.",
+    "id": "religion",
+    "icon": "🙏"
+  },
+  {
+    "title": "Language",
+    "type": "academic",
+    "description": "The method of human communication, either spoken or written.",
+    "id": "language",
+    "icon": "🗣️"
+  },
+  {
+    "title": "Geography",
+    "type": "academic",
+    "description": "The study of the Earth and its features.",
+    "id": "geography",
+    "icon": "🌍"
+  },
+  {
+    "title": "Psychology",
+    "type": "academic",
+    "description": "The scientific study of the mind and behavior.",
+    "id": "psychology",
+    "icon": "🧠"
+  },
+  {
+    "title": "Sociology",
+    "type": "academic",
+    "description": "The study of the development, structure, and function of human society.",
+    "id": "sociology",
+    "icon": "👥"
+  },
+  {
+    "title": "Economics",
+    "type": "industry",
+    "description": "The production, distribution, and consumption of goods and services.",
+    "id": "economics",
+    "icon": "📈"
+  },
+  {
+    "title": "Law",
+    "type": "industry",
+    "description": "The system of rules that a particular country or community recognizes as regulating the actions of its members and may be enforced by a court.",
+    "id": "law",
+    "icon": "⚖️"
+  },
+  {
+    "title": "Food",
+    "type": "common",
+    "description": "The substances that people eat and drink to live.",
+    "id": "food",
+    "icon": "🍔"
+  },
+  {
+    "title": "Fashion",
+    "type": "common",
+    "description": "A style that is popular at a particular time.",
+    "id": "fashion",
+    "icon": "👗"
+  },
+  {
+    "title": "Music",
+    "type": "common",
+    "description": "Vocal or instrumental sounds arranged in rhythm and harmony.",
+    "id": "music",
+    "icon": "🎶"
+  },
+  {
+    "title": "Travel",
+    "type": "common",
+    "description": "The activity of moving from one place to another.",
+    "id": "travel",
+    "icon": "✈️"
+  },
+  {
+    "title": "Literature",
+    "type": "academic",
+    "description": "Written works, especially those considered of superior or lasting artistic merit.",
+    "id": "literature",
+    "icon": "📚"
+  },
+  {
+    "title": "Philosophy",
+    "type": "other",
+    "description": "The study of the fundamental nature of reality, knowledge, existence, value, and reason.",
+    "id": "philosophy",
+    "icon": "🤔"
+  },
+  {
+    "title": "Religion",
+    "type": "other",
+    "description": "Belief in and worship of a superhuman controlling power or powers.",
+    "id": "religion",
+    "icon": "🙏"
+  },
+  {
+    "title": "Automotive",
+    "type": "industry",
+    "description": "The industry related to the design, manufacture, distribution, marketing, and selling of automobiles.",
+    "id": "automotive",
+    "icon": "🚗"
+  },
+  {
+    "title": "Agriculture",
+    "type": "industry",
+    "description": "The science or practice of farming.",
+    "id": "agriculture",
+    "icon": "🌾"
+  },
+  {
+    "title": "Space",
+    "type": "science",
+    "description": "The limitless expanse in which all things exist and move.",
+    "id": "space",
+    "icon": "🚀"
+  },
+  {
+    "title": "Design",
+    "type": "industry",
+    "description": "The process of creating a plan or convention for the construction of an object or system or for implementing a concept.",
+    "id": "design",
+    "icon": "📐"
+  },
+  {
+    "title": "Nature",
+    "type": "common",
+    "description": "The physical world around us, including animals, plants, and the environment.",
+    "id": "nature",
+    "icon": "🌳"
+  },
+  {
+    "title": "Engineering",
+    "type": "industry",
+    "description": "The branch of science and technology concerned with the design, building, and use of engines, machines, and structures.",
+    "id": "engineering",
+    "icon": "🔧"
+  },
+  {
+    "title": "Education",
+    "type": "industry",
+    "description": "The process of receiving or giving systematic instruction, especially at a school or university.",
+    "id": "education",
+    "icon": "🎓"
+  },
+  {
+    "title": "Media",
+    "type": "industry",
+    "description": "The main means of mass communication, especially newspapers, television, radio, and the Internet.",
+    "id": "media",
+    "icon": "📺"
+  },
+  {
+    "title": "Internet",
+    "type": "industry",
+    "description": "A global computer network providing a variety of information and communication facilities, consisting of interconnected networks using standardized communication protocols.",
+    "id": "internet",
+    "icon": "🌐"
+  },
+  {
+    "title": "Social Media",
+    "type": "industry",
+    "description": "Websites and applications that enable users to create and share content or to participate in social networking.",
+    "id": "social-media",
+    "icon": "📱"
+  },
+  {
+    "title": "Gaming",
+    "type": "common",
+    "description": "The action or practice of playing video games.",
+    "id": "gaming",
+    "icon": "🎮"
+  },
+  {
+    "title": "Psychology",
+    "type": "academic",
+    "description": "The scientific study of the mind and behavior.",
+    "id": "psychology",
+    "icon": "🧠"
+  }
+]

@@ -1,0 +1,27 @@
+---
+model: googleai/gemini-1.5-flash-latest
+config:
+  temperature: 0.9
+  topP: 0.95
+  topK: 32
+  safetySettings:
+    - category: HARM_CATEGORY_HARASSMENT
+      threshold: BLOCK_ONLY_HIGH
+
+input:
+  format: json
+  schema: 
+    PromptAudioInputSchema
+ 
+output:
+  format: json
+  schema: 
+    PromptAudioOutputSchema
+---
+
+
+Listen to this audio
+
+{{media url=audio}}
+
+converted_audio: Transcribe the audio.

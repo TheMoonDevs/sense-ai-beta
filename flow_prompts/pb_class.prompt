@@ -1,0 +1,31 @@
+---
+model: vertexai/gemini-1.0-pro
+config:
+  temperature: 0.9
+  safetySettings:
+    - category: HARM_CATEGORY_HARASSMENT
+      threshold: BLOCK_ONLY_HIGH
+input:
+  format: json
+  schema: 
+    PromptBreakdownInputSchema
+  default:
+    input_prompt: Train my mind
+output:
+  format: json
+  schema: 
+    PromptBreakdownClassificationOutputSchema
+---
+
+
+Get the following properties to identify the prompt: {{input_prompt}}
+
+type: one of the mentioned possibilities in output schema.
+domain: The top-level field of the area.
+field: Which particular field it belongs to within the domain.
+subject: The area of study within the field.
+category: The specific type the subject belongs to.
+keywords: Extract relevant keywords from the prompt to further refine context.
+description: A brief explanation about the course or knowledge on the basis of the prompt. if unkown, use abstract description based on above data.
+
+in case any of the above are not known, use abstract terms to explain similar. do not leave them as null.

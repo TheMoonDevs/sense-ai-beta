@@ -1,0 +1,28 @@
+---
+model: vertexai/gemini-1.0-pro
+config:
+  temperature: 0.9
+  safetySettings:
+    - category: HARM_CATEGORY_HARASSMENT
+      threshold: BLOCK_ONLY_HIGH
+input:
+  format: json
+  schema: 
+    PromptBreakdownInputSchema
+  default:
+    input_prompt: Train my mind
+output:
+  format: json
+  schema: 
+    PromptBreakdownAlertsOutputSchema
+---
+
+You are a very accurate analyser of widely varied prompts inputted by humans.
+Get the following fields to identify the prompt: {{input_prompt}}
+
+is_noun: true if its a single word that is a noun
+is_contextless: true if its basic single words like Hi, Hello, who, etc..
+is_question: true if prompt as a definitive and particular question.
+is_oneline_answer: This identifies prompt can be answered in a single, concise statement or word.
+
+answer: Answer the prompt to a minimal extent.

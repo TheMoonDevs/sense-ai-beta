@@ -1,0 +1,29 @@
+---
+model: vertexai/gemini-1.0-pro
+config:
+  temperature: 0.9
+input:
+  format: json
+  schema:
+    PUSurveyFlowInputSchema
+  default:
+    input_prompt: Train my mind
+output:
+  format: json
+  schema:
+    PUSurveyFlowOutputSchema
+---
+
+prompt given by user: {{input_prompt}}
+prompt breakdown: {{firstBreakdown}}
+current prompt knowledge: {{stringify promptKnowledge}}
+
+Output: single question which can increase the knowledge when answered by user
+
+conditions to add uiStyles to Output based on {{questionType}}:
+yesNo: only when type is boolean
+textChoices: when type is single select or multi select
+cardChoices: when type is single select or multi select
+rating: only when type is scale
+
+don't include both choices and options fields in same Output

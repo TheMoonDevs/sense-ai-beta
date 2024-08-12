@@ -1,0 +1,57 @@
+[
+  {
+    "title": "Explore Tech Trends",
+    "subtitle": "Stay updated with the latest tech innovations",
+    "searchTerms": "technology, innovation, gadget, startup"
+  },
+  {
+    "title": "Entertainment & fandom",
+    "subtitle": "Stay up to date with the latest in entertainment",
+    "searchTerms": "entertainment, celebrity, movie, music, TV, anime, gaming, fandom"
+  },
+  {
+    "title": "Health & Fitness",
+    "subtitle": "Your guide to a healthier lifestyle",
+    "searchTerms": "workout, exercise, nutrition, health, fitness"
+  },
+  {
+    "title": "Cooking & Cuisine",
+    "subtitle": "Explore a world of flavors",
+    "searchTerms": "recipe, food, cooking, cuisine, restaurant"
+  },
+  {
+    "title": "Travel tips & Destinations",
+    "subtitle": "Discover your next adventure",
+    "searchTerms": "travel, vacation, destination, explore, adventure"
+  },
+  {
+    "title": "Mindful Living - Meditation & Yoga",
+    "subtitle": "Find peace and balance",
+    "searchTerms": "meditation, yoga, mindfulness, relaxation, spirituality"
+  },
+  {
+    "title": "Fashion Forward",
+    "subtitle": "Stay ahead of the style curve",
+    "searchTerms": "fashion, style, clothing, accessories, trend"
+  },
+  {
+    "title": "Literary Legends",
+    "subtitle": "Immerse yourself in captivating stories",
+    "searchTerms": "book, novel, author, reading, literature"
+  },
+  {
+    "title": "Hisory of Art & Culture",
+    "subtitle": "Explore the world of creativity",
+    "searchTerms": "art, culture, music, film, theater"
+  },
+  {
+    "title": "Home Sweet Home",
+    "subtitle": "Transform your living space",
+    "searchTerms": "home decor, interior design, DIY, renovation, home improvement"
+  },
+  {
+    "title": "Science Discoveries",
+    "subtitle": "Uncover the mysteries of the universe",
+    "searchTerms": "science, research, discovery, technology, innovation"
+  }
+]

@@ -1,0 +1,36 @@
+breakdown
+
+field is which particular field it belongs to in domain
+subject is the area of study it belongs to in field.
+category is which particular type the subject belongs to.
+kind is the way the prompt is usually taught or learned.
+
+
+in case any of the specifity below are unkown, fill with uknown
+
+promptSpecificity: in the provided subject - {{classification.subject}}
+fieldSpecifity: in the provided domain - {{classification.domain}}
+domainSpecifity: in general knowledge
+
+targetLevel: The target audience's knowledge level (e.g., Beginner, Intermediate, Advanced)
+skillLevel (Optional): If applicable, the skill level required to understand the prompt (e.g., Basic, Intermediate, Advanced)
+outcomeOfAction: What the prompt aims to achieve 
+actionKind: The way the prompt is usually taught or learneddomain
+subField (Optional): For very specific prompts, a sub-field can be identified
+
+is_oneline_answer: can be answered in a single, concise statement.
+is_non_relaistic (Optional): This flags prompts that seek to learn stuff that cannot be attained practically. (eg: How can I learn to fly like superman).
+is_assertion (Optional): He is not seeking to learn anything, but just confirm.
+is_instruction (Optional): This identifies prompts that give commands or directions
+is_dangerous (Optional): This identifies prompts that are unsafe
+is_hypothetical (Optional): prompts that explore hypothetical scenarios (e.g., If time travel were possible, what would you do?).
+is_opinion (Optional): This identifies prompts that ask personal beliefs or preferences (e.g., What is the best pizza topping?).
+is_open_ended (Optional): This flags prompts that encourage discussion and exploration without a definitive answer
+is_factual (Optional): This identifies prompts that seek factual information
+is_conceptual (Optional): This recognizes prompts that ask about abstract ideas (e.g., Explain the concept of gravity).
+is_procedural (Optional): This identifies prompts that require following a specific process (e.g., How to change a flat tire).
+is_analytical (Optional): This detects prompts that require analysis and critical thinking (e.g., Compare and contrast the economic policies of different countries).
+is_creative (Optional): This recognizes prompts that encourage creativity and imagination (e.g., Write a poem about a robot).
+is_broad (Optional): This identifies prompts that cover a wide range of topics (e.g., What is the history of the world?).
+is_specific (Optional): This recognizes prompts that focus on a narrow topic (e.g., Explain the theory of relativity).
+is_ambiguous (Optional): This detects prompts that could be interpreted in multiple ways (e.g., What is the meaning of life?).

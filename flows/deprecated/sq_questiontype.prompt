@@ -1,0 +1,20 @@
+---
+model: vertexai/gemini-1.0-pro
+config:
+  temperature: 0.9
+input:
+  format: json
+  schema:
+    SQQuestionTypeInputSchema
+  default:
+    input_prompt: Train my mind
+output:
+  format: json
+  schema:
+    SQQuestionTypeOutputSchema
+---
+
+
+suggest any one question type which can get the best response for most of the following prompt knowledge fields: {{missingFields}}
+
+prefer the types with options/choices over open_ended type

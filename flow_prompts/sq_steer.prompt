@@ -1,0 +1,29 @@
+---
+model: googleai/gemini-pro
+config:
+  temperature: 0.9
+  topP: 0.95
+  topK: 32
+  safetySettings:
+    - category: HARM_CATEGORY_HARASSMENT
+      threshold: BLOCK_ONLY_HIGH
+input:
+  format: json
+  schema: 
+    SQSteerInputSchema
+output:
+  format: json
+  schema: 
+    SQSteerOutputSchema
+---
+
+Get the following properties based on Prompt Data.
+- **Prompt Data:** {{stringify promptData}}
+- **Steer Prompt** {{steerPrompt}}
+
+
+
+and Generate a question slide for {{steerPrompt}}
+
+
+if rest of the fields in output schema are not known, fill it on the basis of the field type.

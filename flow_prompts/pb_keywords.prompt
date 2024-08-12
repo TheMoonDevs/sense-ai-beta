@@ -1,0 +1,20 @@
+---
+model: googleai/gemini-pro
+config:
+  temperature: 0.9
+  topP: 0.95
+  topK: 32
+  safetySettings:
+    - category: HARM_CATEGORY_HARASSMENT
+      threshold: BLOCK_ONLY_HIGH
+input:
+  format: json
+  schema: 
+    PromptKeywordsInputSchema
+output:
+  format: json
+  schema: 
+    PromptKeywordsOutputSchema
+---
+
+Generate relevant keywords from : {{stringify classification}}
